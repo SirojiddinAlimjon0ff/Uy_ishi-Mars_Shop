@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%; 
+    height: 156px;    
+}
+
+
+.navbar {
+    padding: 43px 106px 43px 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #BCAAAA;
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    background-color: white;
+    width: 100%;
+    height: 156px;
+}
+ 
+.nav_wrapper {
+    display: flex;
+    
+}
+
+.nav_img {
+    margin: 0 0 0 30px;
+}
+
+.nav_list>ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51.5px;
+}
+
+.nav_list>ul>li>a {
+    text-decoration: none;
+    list-style: none;
+    color: #BCAAAA;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.nav_list>ul>li {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_list>ul>li>a:hover {
+    color: #EF400F;
+    transition: all 0.5s;
+}
+
+.post_btn>button {
+    width: 219px;
+    height: 63px;
+    background-color: white;
+    border: 3px solid #EF400F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    color: #EF400F;
+    border-radius: 20px;
+}
+
+.post_btn>img {
+    margin: 0 40px 0 0;
+}
+
+.post_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+
+.start_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 190px 145px 0 135px;
+}
+
+.startMain_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.startMain_left>h1 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D0C5C;
+}
+
+.startMain_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.startMain_right>h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: #EF400F;
+}
+
+.cards {
+    padding: 117px 106px 39px 97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    row-gap: 35px;
+}
+
+.card {
+    width: 290px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    width: 310px;
+    height: 310px;
+    transition: 0.5s;
+}
+
+.card_cost {
+    display: flex;
+    gap: 10px;
+    padding: 16px 0 34px 0;
+}
+
+.product_name {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.pices {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 300;
+    color: #000000BF;
+}
+
+.card_cost>p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000AB;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 150px 16px 140px;
+    border: 1px solid #BCAAAA4F;
+    box-shadow: 0px 4px 17.9px 0px #00000040;
+}
+
+.footer_left>h2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer_right>a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+}
+
+.footer_img {
+    width: 118px;
+    height: 32px;
+}
+
+.product_name_zero {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    color: #00000054;
+}
+
+.card_cost_zero>p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0000004D;
+}
+
+.pices_zakaz {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000000BF;
+}
